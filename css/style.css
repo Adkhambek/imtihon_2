@@ -325,4 +325,83 @@ h2{
     display: block;
     width: 70%;
     margin: 0 auto;
+} 
+
+/********************************************
+ Client Section:
+*********************************************/
+
+.client__container{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+} 
+
+.client__text{
+    width: 48%;
+
+} 
+.client__card{
+    width: 48%;
+} 
+
+.client__next{
+    margin-top: 6rem;
+    display: flex;
+
+} 
+
+.client__btn{
+    width: 6rem;
+    height: 6rem;
+    color: var(--blue);
+    border: 2px solid var(--blue);
+    border-radius: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     transition: background-color .3s ease,
+                 color .3s ease;
+
+}
+.client__btn:hover{
+    background-color: var(--blue);
+    color: #ffffff;
+}
+.client__btn:first-child{
+    margin-right: 3.5rem;
+} 
+
+.client__card{
+    background: linear-gradient(270deg, #FFFFFF 0%, #ECEBFA 98.36%);
+    padding: 7rem;
+    border: 1px solid #ECEBFA;
+    border-radius: 4rem;
+} 
+
+.client__header{
+     display: flex;
+     align-items: center;
+     margin-bottom: 4rem;
+} 
+
+.client__user{
+    width: 9rem;
+    height: 9rem;
+    margin-right: 2.5rem;
+}
+
+.client__name{
+    font-size: 24px;
+line-height: 34px;
+font-weight: bold;
+} 
+.client__prof{
+    color: #5956E9;
+    font-weight: bold;
+font-size: 16px;
+} 
+
+.client__say{
+    color: #6B6B6B;
 }
