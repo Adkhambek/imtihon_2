@@ -43,24 +43,46 @@
                     <span>Get Started Now</span>
                     <img src="./images/right.png" alt="right icon">
                 </a>
-                    <img src="./images/comp.png" alt="comp" class="hero__image">
+                    
                     <img src="./images/cloud_2.png" alt="cloud" class="cloud-left">
                     <img src="./images/cloud_3.png" alt="cloud" class="cloud-right">
                
+            </div>
+            <div class="intro__computer">
+                <img src="./images/comp.png" alt="comp" class="computer__image">
             </div>
         </div>
     </section>
     <section class="statistics">
         <div class="container statistics__container">
             <div class="statistics__charts">
-                <div class="statistics__top">
-                    <div class="statistics__user">
-                        <img src="./images/stat-user.png" alt="users">
-                        <img src="./images/stat-1.png" alt="statistics">
-                    </div>
-                    <img class="statistics__bar-chart" src="./images/stat-2.png" alt="statistic">
+                <div class="happy-users">
+                    <ul class="happy-users__list">
+                        <li class="happy-users__item">
+                            <img src="./images/user-3.png" alt="" class="happy-users__image">
+                        </li>
+                        <li class="happy-users__item">
+                            <img src="./images/user-2.png" alt="" class="happy-users__image">
+                        </li>
+                        <li class="happy-users__item">
+                            <img src="./images/user-3.png" alt="" class="happy-users__image">
+                        </li>
+                        <li class="happy-users__item">
+                            <img src="./images/user-2.png" alt="" class="happy-users__image">
+                        </li>
+                        <li class="happy-users__item">
+                            <img src="./images/user-5.png" alt="" class="happy-users__image">
+                        </li>
+                    </ul>
+                    <p class="happy-users__text">Happy Users</p>
                 </div>
-                <img class="statistics__bottom-image" src="./images/stat-3.png" alt="statistics">
+                <div class="chart">
+                    <img src="./images/stat-1.png" alt="bar chart" class="chart__bar__image">
+                    <img src="./images/stat-2.png" alt="pie chart" class="chart__pie__image">
+                </div>
+                <div class="line-chart">
+                    <img src="./images/stat-3.png" alt="line chart" class="line-chart__image">
+                </div>
             </div>
             <div class="statistics__text">
                 <h2 class="statistics__suptitle">About Us</h2>
@@ -74,17 +96,23 @@
             <h1 class="visually-hidden">Features</h1>
             <ul class="feature__list">
                 <li class="feature__item feature__item_color-1">
-                    <img src="./images/feature_1.png" alt="feature" class="feature__image">
+                    <div class="feature__image-box">
+                        <img src="./images/feature_1.png" alt="feature" class="feature__image">
+                    </div>
                     <a href="#" class="feature__name">User Interface Design</a>
                     <p class="feature__description">There are on many variations of  passages majority available but the  have suffered.</p>
                 </li>
                 <li class="feature__item feature__item_color-2">
-                    <img src="./images/feature_2.png" alt="feature" class="feature__image">
+                    <div class="feature__image-box feature__image-box_c2">
+                        <img src="./images/feature_2.png" alt="feature" class="feature__image">
+                    </div>
                     <a href="#" class="feature__name">Market Analysis</a>
                     <p class="feature__description">There are on many variations of  passages majority available but the  have suffered.</p>
                 </li>
                 <li class="feature__item feature__item_color-3">
-                    <img src="./images/feature_3.png" alt="feature" class="feature__image">
+                    <div class="feature__image-box feature__image-box_c3">
+                        <img src="./images/feature_3.png" alt="feature" class="feature__image">
+                    </div>
                     <a href="#" class="feature__name">Web Development</a>
                     <p class="feature__description">There are on many variations of  passages majority available but the  have suffered.</p>
                 </li>
@@ -106,6 +134,7 @@
     </section>
     <section class="map">
         <div class="container">
+            <h1 class="visually-hidden">Map</h1>
             <img class="map__image" src="./images/map.png" alt="map">
         </div>
     </section>
@@ -127,18 +156,20 @@
                 <div class="client__header">
                     <img src="./images/user.png" alt="client" class="client__user">
                     <div class="client__about">
-                        <p class="client__name">Md Shamim Hossain</p>
+                        <h2 class="client__name">Md Shamim Hossain</h2>
                         <p class="client__prof">UI/UX Designer</p>
                     </div>
                    
                 </div>
                 <p class="client__say">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
+                <img src="./images/ellipse_1.png" alt="circle" class="client__circle client__circle_1">
+                <img src="./images/ellipse_2.png" alt="circle" class="client__circle client__circle_2">
             </div>
         </div>
     </section>
     <section class="sponsor">
         <div class="container">
-            <h1 class="visually-hidden"></h1>
+            <h1 class="visually-hidden">Sponsors</h1>
             <ul class="sponsor__list">
                 <li class="sponsor__item">
                     <a href="#" class="sponsor__link">
@@ -168,6 +199,84 @@
             </ul>
         </div>
     </section>
-
+    <footer class="footer">
+        <section class="contact">
+            <div class="container contact__container">
+                <div class="contact__card">
+                    <form class="form">
+                        <h2 class="form__suptitle">Contact us</h2>
+                        <h1 class="form__title">Just Say Hello</h1>
+                        <input name="name" type="text" class="form__input" placeholder="Name">
+                        <input name="email" type="email" class="form__input form__input_mail" placeholder="E-mail">
+                        <select name="subject" class="form__select">
+                            <option disabled selected hidden>Subject</option>
+                            <option>Subject-1</option>
+                            <option>Subject-2</option>
+                            <option>Subject-3</option>
+                        </select>
+                        <textarea class="form__message" name="message" id="" rows="10" placeholder="Type your message"></textarea>
+                        <button class="form__submit btn"  type="submit">
+                            <span>Send message</span>
+                            <img src="./images/send.png" alt="">
+                        </button>
+                    </form>
+                    <div class="contact-us">
+                        <ul class="contact-us__list">
+                            <li class="contact-us__item">
+                                <img src="./images/phone.png" alt="phone" class="contact-us__image">
+                                <p class="contact-us__info">+3935 34567 325</p>
+                            </li>
+                            <li class="contact-us__item">
+                                <img src="./images/address.png" alt="address" class="contact-us__image">
+                                <p class="contact-us__info">4074 Ebert Summit Suite 375 Lake Leonardchester</p>
+                            </li>
+                            <li class="contact-us__item">
+                                <img src="./images/gmail.png" alt="gmail" class="contact-us__image">
+                                <p class="contact-us__info">yourmail@gmailcom</p>
+                            </li>
+                        </ul> 
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="subscribe">
+            <h1 class="subscribe__title">Subscribe To Our Monthly Newsletter</h1>
+            <form class="subscribe__form">
+                <input class="subscribe__input" type="email" placeholder="Email address here">
+                <button class="subscribe__submit btn" type="submit">Subscribe</button>
+            </form>
+        </section>
+        <section class="footer__end">
+            <div class="container footer__container">
+                <a href="#" class="footer__logo">
+                    <img src="./images/logo.png" alt="logo">
+                </a>
+                    <p class="footer__copyright">Copyright &copy; 2020 BasicTheme. All Rights Reserved</p>
+                    <ul class="social-media">
+                        <li class="social-media__item">
+                            <a href="#" class="social-media__link">
+                                <img src="./images/facebook.png" alt="social media" class="social-media__image">
+                            </a>
+                        </li>
+                        <li class="social-media__item">
+                            <a href="#" class="social-media__link">
+                                <img src="./images/tweeter.png" alt="social media" class="social-media__image">
+                            </a>
+                        </li>
+                        <li class="social-media__item">
+                            <a href="#" class="social-media__link">
+                                <img src="./images/behance.png" alt="social media" class="social-media__image">
+                            </a>
+                        </li>
+                        <li class="social-media__item">
+                            <a href="#" class="social-media__link">
+                                <img src="./images/pintrest.png" alt="social media" class="social-media__image">
+                            </a>
+                        </li>
+                    </ul>
+            </div>
+        </section>
+    </footer>
+    
 </body>
 </html> 
