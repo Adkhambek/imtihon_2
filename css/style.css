@@ -78,7 +78,9 @@
      background-repeat: no-repeat;
      background-size: cover;
      border-radius: 2rem;
-     padding: 3rem -9.5rem;
+     padding: 3rem -9.5rem 0;
+     height: 90rem;
+     position: relative;
  } 
 
  .nav{
@@ -115,4 +117,45 @@
      background-color: var(--f1-bg);
      color: var(--blue);
 
+ } 
+
+ .hero{
+     width: 70%;
+     text-align: center;
+     margin: 9rem auto 43rem;
+ } 
+
+ .hero__title{
+     color: #ffffff;
+     margin-bottom: 6rem;
+
+ }
+
+ .hero__btn{
+     background-color: #ffffff;
+     color: var(--blue);
+    
+ }
+
+ .hero__btn img{
+     width: 2rem;
+     margin-left: 1rem;
+ } 
+
+ .hero__image{
+    transform: translateY(90px);
+ } 
+
+ .cloud-left{
+    width: 19rem;
+    position: absolute;
+    left: 10%;
+    bottom: 20%;
+    z-index: 2;
+ } 
+ .cloud-right{
+     width: 27rem;
+     position: absolute;
+     bottom: 35%;
+     right: 10%;
  }
