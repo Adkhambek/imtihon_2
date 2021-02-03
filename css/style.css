@@ -311,4 +311,18 @@ h2{
     
     width: 2rem;
     margin-left: 1rem;
+} 
+
+/********************************************
+ Map Section:
+*********************************************/
+
+.map{
+    padding: 18rem 0;
+} 
+
+.map__image{
+    display: block;
+    width: 70%;
+    margin: 0 auto;
 }
