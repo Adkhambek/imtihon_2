@@ -155,6 +155,10 @@
      margin-right: 4.5rem;
  }
 
+ .toggle{
+     display: none;
+ }
+
  .hero {
      width: 70%;
      text-align: center;
@@ -204,6 +208,7 @@
      margin: 0 auto;
      transform: translateY(-35rem);
  }
+
 
  /********************************************
   Statistics Section:
@@ -737,4 +742,99 @@
 
 .social-media__image{
     width: 1.5rem;
+} 
+
+/********************************************
+ Responsive
+*********************************************/
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (max-width: 1400px) {
+    .container {
+        width: 1300px;
+    }
+    html {
+        font-size: 10px;
+        box-sizing: border-box;
+    }
+    .intro{
+        margin: 0;
+        border-radius: 0;
+    }
+ 
+}
+
+/*X-Large devices (large desktops, 1200px and up)*/
+@media (max-width: 1200px) {
+    .container {
+        margin: 0 auto;
+        width: 1140px;
+    }
+    html {
+        font-size: 10px;
+        box-sizing: border-box;
+    }
+    .intro{
+        margin: 0;
+        border-radius: 0;
+        width: 100%;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (max-width: 992px) {
+    .container {
+        margin: 0 auto;
+        width: 930px;
+    }
+    html {
+        font-size: 9px;
+        box-sizing: border-box;
+    }
+    .intro{
+        margin: 0;
+        border-radius: 0;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) {
+    .container {
+        margin: 0 auto;
+        width: 720px;
+    }
+    html {
+        font-size: 9px;
+        box-sizing: border-box;
+    }
+    .intro{
+        margin: 0;
+        border-radius: 0;
+    }
+    .nav__list{
+        display: none;
+    }
+    .nav__right{
+        display: none; 
+    }
+    .toggle{
+        display: block;
+        font-size: 4rem;
+        color: #ffffff;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width:576px) {
+    .container {
+        width: 90%;
+    }
+    html {
+        font-size: 8px;
+        box-sizing: border-box;
+    }
+    .intro{
+        margin: 0;
+        border-radius: 0;
+    }
 }
