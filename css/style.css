@@ -37,6 +37,7 @@
      color: #ffffff;
      font-weight: bold;
      font-size: 1.8rem;
+     display: inline-block;
  }
  
  h1 {
@@ -73,6 +74,16 @@ h2{
     color: var(--blue);
     font-size: 1.6rem;
  }
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
  
  /********************************************
   Intro Section: 
@@ -211,4 +222,45 @@ h2{
 
  .statistics__description{
      margin-top: 4.5rem;
+ } 
+
+ /********************************************
+  Feature Section:
+ *********************************************/
+
+ .feature{
+     padding: 16.6rem 0;
+ } 
+
+ .feature__list{
+     text-align: center;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+ } 
+
+ .feature__item{
+     border-radius: 1.5rem;
+     width: 35rem;
+     padding: 6rem 4.5rem;
+ } 
+ .feature__item_color-1{
+     background-color: #FFF7ED;
  }
+ .feature__item_color-2{
+    background-color: #F2F3FF;
+}
+.feature__item_color-3{
+    background-color: #FFF0F3;
+} 
+
+.feature__image{
+    width: 19rem;
+    height: 19rem;
+}
+
+.feature__name{
+    color: #000000;
+    font-size: 2.4rem;
+    margin: 4.5rem 0 3.5rem;
+}
