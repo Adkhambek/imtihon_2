@@ -43,7 +43,7 @@
  }
 
  h1 {
-     font-size: 6rem;
+     font-size: 5.5rem;
      color: #000000;
  }
 
@@ -529,7 +529,7 @@
  Sponsor Section:
 *********************************************/
  .sponsor {
-     padding: 7.6rem;
+     padding: 7.6rem 0;
  }
 
  .sponsor__list {
@@ -761,6 +761,8 @@
         margin: 0;
         border-radius: 0;
     }
+    
+  
  
 }
 
@@ -771,14 +773,10 @@
         width: 1140px;
     }
     html {
-        font-size: 10px;
+        font-size: 9.5px;
         box-sizing: border-box;
     }
-    .intro{
-        margin: 0;
-        border-radius: 0;
-        width: 100%;
-    }
+    
 }
 
 /*Large devices (desktops, 992px and up)*/
@@ -791,10 +789,48 @@
         font-size: 9px;
         box-sizing: border-box;
     }
-    .intro{
-        margin: 0;
-        border-radius: 0;
+   
+    .feature__item {
+        border-radius: 1.5rem;
+        width: 32rem;
+        padding: 5rem 4rem;
     }
+    .intro__computer {
+        width: 60rem;
+        margin: 0 auto;
+        transform: translateY(-35rem);
+    }
+    .statistics {
+        margin-top: 30rem;
+    }
+    .mobile__photo {
+        width: 40%;
+    }
+   
+    .mobile__text {
+        width: 55%;
+    }
+    h1{
+        font-size: 5rem;
+    }
+    .client__say {
+        font-size: 2rem;
+    }
+    .sponsor__item {
+        width: 15rem;
+    }
+    .mobile__link{
+        margin: 0 auto;
+    }
+    .mobile__title{
+        text-align: center;
+    }
+    .contact__card {
+        width: 85rem;
+        padding: 7rem 6rem;
+        background-size: 55rem;
+    }
+   
 }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -807,22 +843,61 @@
         font-size: 9px;
         box-sizing: border-box;
     }
+    h1{
+        font-size: 4rem;
+    }
     .intro{
         margin: 0;
         border-radius: 0;
-        padding: 0;
+        padding: 3rem 0rem;
+        height: auto;
     }
-    .nav__list{
-        display: none;
-    }
-    .nav__right{
-        display: none; 
-    }
+    
     .toggle{
         display: block;
         font-size: 4rem;
         color: #ffffff;
     }
+    .intro__computer,.nav__list,.nav__right,.cloud-left,.cloud-right{
+        display: none;
+    }
+    .hero {
+        width: 70%;
+        text-align: center;
+        margin: 9rem auto;
+    }
+    .statistics {
+        margin-top: 10rem;
+    }
+    .statistics__container {
+        flex-direction: column;
+    }
+    .statistics__charts {
+        width: 100%;
+        margin-bottom: 5rem;
+    }
+    .statistics__text {
+        width: 100%;
+        text-align: center;
+    }
+    .feature__list {
+        flex-direction: column;
+    }
+    .feature__item {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 5rem;
+    }
+    .mobile__container {
+        width: 100%;
+        flex-direction: column;  
+}
+.mobile__photo {
+    width: 50%;
+}
+.contact__card {
+    width: 90%;
+}
 }
 
 /* Small devices (landscape phones, 576px and up) */
